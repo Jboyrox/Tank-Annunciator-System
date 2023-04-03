@@ -27,3 +27,4 @@ will be passed onto the register a0. Before proceeding any further, test this ne
 6. Add code to main.c to handle the states of the Annunciator state machine. When returning value</br>
 from checkBot(int PIN) do not forget to invert it, since the pullup function is on, pins are in
 active low state which is not intuitive. (ex TST = !checkBot(PIN_2);)</br>
+The video
